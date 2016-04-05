@@ -3,5 +3,5 @@ require "sinatra"
 
 # Your routes go here:
 git '/' do
-  erb :home
+  erb :root_path
 end
