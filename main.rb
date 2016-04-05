@@ -2,6 +2,6 @@ require "pry"
 require "sinatra"
 
 # Your routes go here:
-git '/' do
+get '/' do
   erb :root_path
 end
