@@ -23,10 +23,11 @@ end
 
 
 def conversion(temp, units)
-  if units == "C"
+  if units == "f"
     converted_temp = (temp - 32) * 5 / 9
   else
     converted_temp = (temp * 9 / 5)+ 32
+    binding.pry
   end
   converted_temp
 end
