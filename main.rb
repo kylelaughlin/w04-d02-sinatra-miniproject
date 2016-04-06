@@ -16,7 +16,9 @@ get '/temp_conversion_results' do
   erb :temp_converter_results
 end
 
-
+get '/reverser' do
+  erb :reverser_form
+end
 
 
 
