@@ -20,6 +20,10 @@ get '/reverser' do
   erb :reverser_form
 end
 
+get '/word_reverser_result' do
+  @phrase = params['phrase']
+  erb :word_reverser_result
+end
 
 
 
